@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+}
+
+.pedir-orçamento {
+    color: white;
+    background-color: #c51111;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pedir-orçamento:hover {
+    opacity: 0.6;
+}
+
+.entre-em-contato {
+    color: white;
+    background-color: #c51111;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 210px;
+}
+
+.entre-em-contato:hover {
+    opacity: 0.6;
+}
+
+p {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
+
+.logo-mario {
+    height: 200px;
+    margin-left: 130px;
+}
+
+.logo-mario-e-luigi {
+    height: 500px;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.descriçao {
+    width: 40%;
+}
+
+.video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+.link-whatsapp img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.header img {
+    height: 80px;
+}
+
+.header a {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.header a:hover {
+    color: #c51111;
+    font-size: 26px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.formulario {
+    width: 400px;
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -430px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: left 0.5s ease-in-out;
+}
+
+.formulario input {
+    font-family:"Roboto";
+}
+
+.formulario textarea {
+    font-family:"Roboto";
+}
+
+.formulario button {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #c51111;
+}
+
+textarea {
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #c51111;
+}
+
+.mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 0.5s ease-out;
+}
+
+.header2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.header2 img {
+    height: 80px;
+}
+
+.header2 a {
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header2 a:hover {
+    color: #c51111;
+    font-size: 32px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.quem-somos-nos {
+  height: 80%;
+  width: 40%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+.quem-somos-nos h1 {
+    color: #c51111;
+    letter-spacing: 2px;
+    font-size: 40px;
+    display: block;
+    margin-bottom: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.quem-somos-nos h1:hover {
+    font-size: 45px;
+    transition: 0.5s ease-in-out;
+}
+.quem-somos-nos p {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.quem-somos-nos img {
+    width: 20vw;
+    transition: 0.5s ease-in-out;
+}
+
+.quem-somos-nos img:hover {
+    width: 25vw;
+    transition: 0.5s ease-in-out;
+}
+
+
+@media(max-width: 1200px){
+    
+    p {
+        display: none;
+    }
+
+    .caixa-mae {
+        flex-direction: column;
+        padding: 10px;
+        justify-content: flex-start;
+
+    }
+    
+    .descriçao {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logo-mario {
+        height: 150px;
+        margin: 0;
+    }
+    
+    .logo-mario-e-luigi {
+        height: auto;
+        width: 70vw;
+    }
+    
+    .descriçao button {
+        margin: 0;
+        margin-top: 20px;
+    }
+    
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header img {
+        display: none;
+    }
+    
+    .header a {
+        font-size: 15px;
+    }
+
+    .formulario {
+        width: 300px;
+    }
+
+
+
+}
