@@ -4,6 +4,8 @@
 
 Uma landing page inspirada no Mario Bros, com efeitos de transição dinâmicos e um formulário online para contato. Projeto ensinado pelo DevClub.
 
+
+Implementado mini game do Mario :)
 ## Tecnologias Utilizadas
 
 - HTML
